@@ -123,7 +123,7 @@ def gen_combinations(combs, chunk_size):
     yield from iter(lambda: list(islice(combs, chunk_size)), [])
 
 
-# helper function for custom loss accoring to Q matrix
+# helper function for custom loss according to Q matrix
 def loss_func(probs, Q_mat):
     """
     Function to compute cost value for given probability of spin [prob(+1)] and predefined Q matrix.
