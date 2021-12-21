@@ -1,2 +1,6 @@
 # MacOS
 .DS_Store
+# PyCharm
+.idea/
+# Caching
+.ipynb_checkpoints/
