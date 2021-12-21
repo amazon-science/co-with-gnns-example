@@ -93,9 +93,11 @@ The sample code within this documentation is made available under the MIT-0 lice
 
 ## Citation
 
+```
 @article{Schuetz2021,
   title={Combinatorial Optimization with Physics-Inspired Graph Neural Networks},
   author={Schuetz, Martin J A and Brubaker, J Kyle and Katzgraber, Helmut G},
   journal={arXiv preprint arXiv:2107.01188},
   year={2021}
 }
+```
