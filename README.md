@@ -53,7 +53,7 @@ channels to find them on. These can be distilled into a single line as such:
 **NOTE:** The contents of the requirements file are pegged to python version 3.8, and have been tested with 
 versions 3.8.5 and 3.8.12. It's possible to use more recent python versions (3.9+), but the specified 
 requirements packages will likely have version conflicts, therefore we recommend sticking to python 3.8. 
-Environment setup is expected to take a couple minutes (2-5min), depending on package download speeds.
+Environment setup is expected to take a couple of minutes (2-5min), depending on package download speeds.
 
 ## Code Execution
 
@@ -71,7 +71,7 @@ or
 
 `Kernel` > `Restart & Run All`
 
-**NOTE:** On a standard laptop (e.g. a 2019 13" MacBook Pro), the full notebook takes ~30 seconds to run. 
+**NOTE:** On a standard laptop (e.g. a 2019 13" MacBook Pro), the full notebook takes ~30-60 seconds to run. 
 This should not vary much across hardware, as the code is not parallelized and the problem instance and 
 GNN model are small enough to fit in memory.
 
