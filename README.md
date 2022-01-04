@@ -48,7 +48,12 @@ Please note we have provided a `requirements.txt` file, which defines the enviro
 Because some of the packages are not available on default OSX conda channels, we have also provided suggested 
 channels to find them on. These can be distilled into a single line as such:
 
-> conda create -n <environment_name> python=3 --file requirements.txt -c conda-forge -c dglteam -c pytorch
+> conda create -n <environment_name> python=3.8 --file requirements.txt -c conda-forge -c dglteam -c pytorch
+
+**NOTE:** The contents of the requirements file are pegged to python version 3.8, and have been tested with 
+versions 3.8.5 and 3.8.12. It's possible to use more recent python versions (3.9+), but the specified 
+requirements packages will likely have version conflicts, therefore we recommend sticking to python 3.8. 
+Environment setup is expected to take a couple of minutes (2-5min), depending on package download speeds.
 
 ## Code Execution
 
@@ -65,6 +70,10 @@ Once in the notebook, run the cells via
 or 
 
 `Kernel` > `Restart & Run All`
+
+**NOTE:** On a standard laptop (e.g. a 2019 13" MacBook Pro), the full notebook takes ~30-60 seconds to run. 
+This should not vary much across hardware, as the code is not parallelized and the problem instance and 
+GNN model are small enough to fit in memory.
 
 ### Key Hyperparameters
 
