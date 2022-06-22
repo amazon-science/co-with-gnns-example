@@ -3,7 +3,7 @@ dgl==0.5.3
 # -c pytorch
 pytorch==1.7.1
 # -c conda-forge
-numpy==1.19.5
+numpy==1.22.0
 networkx==2.5
 jupyter==1.0.0
 requests==2.25.1
