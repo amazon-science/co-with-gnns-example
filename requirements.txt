@@ -6,5 +6,5 @@ pytorch==1.7.1
 numpy==1.19.5
 networkx==2.5
 jupyter==1.0.0
-requests==2.25.1
+requests==2.31.0
 matplotlib==3.3.2
