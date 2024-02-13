@@ -83,7 +83,7 @@ def generate_graph(n, d=None, p=None, graph_type='reg', random_seed=0):
     # Networkx does not enforce node order by default
     nx_temp = nx.relabel.convert_node_labels_to_integers(nx_temp)
     # Need to pull nx graph into OrderedGraph so training will work properly
-    nx_graph = nx.OrderedGraph()
+    nx_graph = nx.Graph()
     nx_graph.add_nodes_from(sorted(nx_temp.nodes()))
     nx_graph.add_edges_from(nx_temp.edges)
     return nx_graph
